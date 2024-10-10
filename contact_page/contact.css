@@ -1,6 +1,6 @@
 @import url('../utilities/navbar/navbar.css');
 @import url('../utilities/poster/poster.css');
-
+@import url('../utilities/footer/footer.css');
 
 .poster-text-cont{
     display: flex;
