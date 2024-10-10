@@ -1,9 +1,9 @@
-const animationElements = document.querySelectorAll('.why-kantipur * , .welcome-wrapper *');
+const animationElements = document.querySelectorAll('.why-kantipur * , .welcome-wrapper *, .msg-from-cont *');
 console.log(animationElements);
 
 animationElements.forEach(ele => {
     if (isInView(ele)) {
-        ele.classList.add('welcome-visible');
+        ele.classList.add('visible');
     }
 });
 
@@ -18,7 +18,7 @@ function debounce(func, delay) {
 document.addEventListener('scroll', debounce(() => {
     animationElements.forEach(ele => {
         if (isInView(ele)) {
-            ele.classList.add('welcome-visible');
+            ele.classList.add('visible');
         }
     });
 }, 100));
