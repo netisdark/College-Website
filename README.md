@@ -1,1 +1,1 @@
-<a href="https://netisdark.github.io/College-Website"> See Site </a>
+<a href="https://netisdark.github.io/College-Website/home_page/home.html"> See Site </a>
