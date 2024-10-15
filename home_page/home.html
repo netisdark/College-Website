@@ -7,6 +7,9 @@
     <title>Kantipur Intl. College</title>
     <!-- Style Sheet -->
     <link rel="stylesheet" href="homepage.css">
+        <!-- Utilities styleSheet -->
+        <link rel="stylesheet" href="../utilities/navbar/navbar.css">
+        <link rel="stylesheet" href="../utilities/footer/footer.css">
     <!-- Poppins Font Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,23 +20,25 @@
  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
  crossorigin="anonymous" referrerpolicy="no-referrer" />
  <!-- Favicon -->
-<link rel="shortcut icon" href="/media_src/college_logo.jfif" type="image/x-icon">
+<link rel="shortcut icon" href="college_logo_2.png" type="image/x-icon">
 </head>
 <body>
 
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="nav-item-cont">
             <div class="college-logo"></div>
+            <div class="logo-text"><span class="white">Kantipur</span> Intl.</div>
         </div>
 
         <div class="nav-item-cont">
-            <a href="/about_page/about.html"><div class="nav-btn" id="about">About</div></a>
-            <a href="/courses_page/course.html"><div class="nav-btn" id="courses">Courses</div></a>
-            <a href="/scholarship_page/scholarship.html"><div class="nav-btn" id="scholarship">Scholarship</div></a>
-            <a href="/admission_page/admission.html"><div class="nav-btn" id="admission">Admission</div></a>
+            <a href="../about_page/about.html"><div class="nav-btn" id="about">About</div></a>
+            <a href="../courses_page/course.html"><div class="nav-btn" id="courses">Courses</div></a>
+            <a href="../scholarship_page/scholarship.html"><div class="nav-btn" id="scholarship">Scholarship</div></a>
+            <a href="../admission_page/admission.html"><div class="nav-btn" id="admission">Admission</div></a>
         </div>
         <div class="nav-item-cont">
-            <a href="/admission_page/admission.html"><button id="applyBtn">Apply Now</button></a>
+            <a href="../admission_page/admission.html"><button id="applyBtn">Apply Now</button></a>
             <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
@@ -43,10 +48,10 @@
             <i class="fa-solid fa-x"></i>
         </div>
         <ul class="siliding-nav-item-list">
-           <a href="/contact_page/contact.html"><div class="sliding-nav-btn" id="contact">Contact Us</div></a>
-            <a href="/news_events_page/news.html"><div class="sliding-nav-btn" id="news">News & Events</div></a>
-            <a href="/life_page/life.html"><div class="sliding-nav-btn" id="news">Life at Kantipur Intl.</div></a>
-            <a href="/login_page/login.html"><div class="sliding-nav-btn">Login</div></a>
+           <a href="../contact_page/contact.html"><div class="sliding-nav-btn" id="contact">Contact Us</div></a>
+            <a href="../news_events_page/news.html"><div class="sliding-nav-btn" id="news">News & Events</div></a>
+            <a href="../life_page/life.html"><div class="sliding-nav-btn" id="news">Life at Kantipur Intl.</div></a>
+            <a href="../login_page/login.html"><div class="sliding-nav-btn">Login</div></a>
 
             <div class="socials-cont">
                 <div class="icon-cont"><i class="fa-brands fa-instagram social-icon"></i></div>
@@ -56,7 +61,97 @@
         </ul>
     </div>
 
+    <!-- Poster -->
+    <section class="poster">
+        <div class="desc-cont">
+            <div class="head-title-cont">Explore KIC.</div>
+            <div class="desc-paragraph-cont">
+                - Discover your potential at Kantipur College, where innovation meets excellence in education. With a diverse range of programs, expert faculty, and state-of-the-art facilities, we empower students to achieve their academic and career goals. Join our vibrant community and shape your future today!
+            </div>
+        </div>
+        <div class="std-img-cont">
+            <div class="dispersion-effect"></div>
+        </div>
+    </section>
+
+    <!-- College Introduction -->
+    <section class="clg-intro-cont">
+        <div class="intro-paragraph-cont">
+            <div class="clg-name-cont">Kantipur Intl College.</div>
+            <div class="intro-paragraph">
+                Welcome to <span class="bold-clg-name">Kantipur International College</span>, established in 2012 in the vibrant city of Biratnagar. We are committed to providing a comprehensive educational experience that fosters academic excellence and personal growth. Our modern curriculum, experienced faculty, and state-of-the-art facilities empower students to thrive in their chosen fields. At Kantipur International College, we cultivate the leaders of tomorrow in a dynamic learning environment designed to prepare them for success in an ever-changing global landscape.
+            </div>
+        </div>
+        <div class="building-img-cont">
+            <img src="college_img.jpg" alt="" class="building-img">
+        </div>
+    </section>
+
+
+    <!-- Courses Section -->
+    <div class="course-intro">
+        <div class="our-courses">Our Courses</div>
+        <div class="course-p">
+            <p>Kantipur College is committed to delivering a high-quality educational experience, empowering students to excel in their personal and professional lives.</p>
+        </div>
+    </div>
+
+    <div class="course-box-wrapper">
+        <div class="course-box" id="course-box-1">
+            <img src="https://www.padmashreecollege.edu.np/storage/programs/1693385252bit.webp" alt="" class="course-img">
+            <div class="about-course">
+                <div class="course-name">Computer Science</div>
+                <div class="course-desc">The Computer Science program equips students with essential programming skills, problem-solving techniques, and knowledge of software development, preparing them for innovative careers.</div>
+                <div class="course-btns">
+                    <a href="../admission_page/admission.html"><button class="enroll-btn">Enroll Now <i class="fa-solid fa-angle-right"></i></button></a>
+                    <a href="../courses_page/course.html"><button class="more-btn">Learn More <i class="fa-solid fa-angle-right"></i></button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-box" id="course-box-2">
+            <img src="https://nobelcollege.edu.np/DynamicResources/Images/science-lab-1.jpg" alt="" class="course-img">
+            <div class="about-course">
+                <div class="course-name">Bio Science</div>
+                <div class="course-desc">The Bio Science course offers in-depth study of living organisms, emphasizing research and practical applications in genetics, microbiology, and ecology for future scientists.</div>
+                <div class="course-btns">
+                    <a href="../admission_page/admission.html"><button class="enroll-btn">Enroll Now <i class="fa-solid fa-angle-right"></i></button></a>
+                    <a href="../courses_page/course.html"><button class="more-btn">Learn More <i class="fa-solid fa-angle-right"></i></button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-box" id="course-box-3">
+            <img src="https://skillcampusnepal.com/wp-content/uploads/2022/10/2-small.jpg" alt="" class="course-img">
+            <div class="about-course">
+                <div class="course-name">Management</div>
+                <div class="course-desc">Our Management program cultivates leadership and strategic thinking skills, empowering students to navigate complex business environments and drive organizational success effectively.</div>
+                <div class="course-btns">
+                    <a href="../admission_page/admission.html"><button class="enroll-btn">Enroll Now <i class="fa-solid fa-angle-right"></i></button></a>
+                    <a href="../courses_page/course.html"><button class="more-btn">Learn More <i class="fa-solid fa-angle-right"></i></button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-box" id="course-box-4">
+            <img src="https://www.cihhm.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-27-at-10.58.31-AM-1024x774.jpeg" alt="" class="course-img">
+            <div class="about-course">
+                <div class="course-name">HM</div>
+                <div class="course-desc">The Hotel Management course combines hospitality principles with practical training, preparing students to excel in various roles within the dynamic hotel and tourism industry.</div>
+                <div class="course-btns">
+                    <a href="../admission_page/admission.html"><button class="enroll-btn">Enroll Now <i class="fa-solid fa-angle-right"></i></button></a>
+                    <a href="../courses_page/course.html"><button class="more-btn">Learn More <i class="fa-solid fa-angle-right"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-btns-cont">
+        <div class="course-btn-left slide-btn">&lt;</div>
+        <div class="course-btn-right slide-btn">&gt;</div>
+    </div>
+    
     <script src="homepage.js"></script>
-    <script src="/utilities/navbar/navbar.js"></script>
+    <script src="../utilities/navbar/navbar.js"></script>
 </body>
 </html>

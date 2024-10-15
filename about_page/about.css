@@ -1,7 +1,5 @@
-@import url('../utilities/navbar/navbar.css');
-@import url('../utilities/poster/poster.css');
-@import url('../utilities/footer/footer.css');
 
+/* Poster */
 .advert-cont{
     display: flex;
     justify-content: center;
@@ -29,6 +27,7 @@
     font-size: .85em;
     font-weight: 300;
 }
+/* Welome section */
 .welcome-wrapper{
     height: 100vh;
     width: 100%;
@@ -64,7 +63,7 @@
     text-align: justify;
     color: rgb(48, 48, 48);
 }
-
+/* Welcome section responsive */
 @media(max-width:992px){
     .about-text{
         font-size: 2.5em;
@@ -116,7 +115,7 @@
     }
 }
 
-
+/* Why us section */
 .why-kantipur{
     width: 100%;
     height: fit-content;
@@ -177,27 +176,28 @@
     box-shadow: 0px 0px 10px 0px rgb(172, 172, 172);
 }
 .why-img-1{
-    background-image: url('../media_src/decade_exp.jpeg');
+    background-image: url('decade_exp.jpeg');
 }
 .why-img-2{
-    background-image: url('../media_src/extra_acts.png');
+    background-image: url('extra_acts.png');
     box-shadow: none;
     height: 90%;
     
 }
 .why-img-3{
-    background-image: url('../media_src/dedicated-teahers.jpg');
+    background-image: url('dedicated-teahers.jpg');
 }
 .why-img-4{
-    background-image: url('../media_src/scholarship.jpeg');
+    background-image: url('scholarship.jpeg');
 }
 .why-us-title-cont{
     height: 10vh;
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-bottom: 2px solid #797878;
 }
 .numbering{
     height: 6vh;
@@ -227,6 +227,7 @@
     font-size: .9em;
     text-align: justify;
 }
+/* Why us responsive */
 @media(max-width:992px){
     .why-qsn{
         font-size: 2.5em;
@@ -277,6 +278,7 @@
     }
 }
 
+/* Message from section */
 .msg-from-cont{
     height: 160vh;
     width: 100%;
@@ -324,7 +326,7 @@
     font-size: .9em;
     text-align: justify;
 }
-
+/* Message from responsive */
 @media(max-width:992px){
     .from-chairman-cont,.from-principal-cont{
         width: 80%;
@@ -355,6 +357,7 @@
         margin-top: 5vh;
     }
 }
+
 /* Scroll Visibility Animation */
 .why-kantipur *, .welcome-wrapper *, .msg-from-cont *{
     opacity: 0; 
